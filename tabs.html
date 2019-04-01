@@ -1,0 +1,57 @@
+<docctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tabs</title></title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="./jquery-ui-1.12.1.custom/jquery-ui.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $("#tabs").tabs();
+
+        });
+    </script>
+</head>
+<body>
+<div id="tabs">
+    <ul>
+        <li><a href="#tabs-0">Read This First!</a></li>
+        <li><a href="#tabs-1">Personal Info</a></li>
+        <li><a href="#tabs-2">Positions</a></li>
+        <li><a href="#tabs-3">Education</a></li>
+        <li><a href="#tabs-4">General Info</a></li>
+        <li><a href="#tabs-5">Equal Opportunity</a></li>
+        <li><a href="#tabs-6">Disclaimers</a></li>
+    </ul>
+    <div id="tabs-0">
+        <h3>Prior To Filling out...</h3>
+    </div>
+    <div id="tabs-1">
+        <h3>Personal Information</h3>
+        <input placeholder="First Name" size="10">
+        <input placeholder="Last Name" size="10">&nbsp;<input placeholder="mi" size="1">
+        <br />
+        <input placeholder="">
+    </div>
+    <div id="tabs-2">
+        <h3>Positions</h3>
+    </div>
+    <div id="tabs-3">
+        <h3>Education</h3>
+    </div>
+    <div id="tabs-4">
+        <h3>General Info</h3>
+    </div>
+    <div id="tabs-5">
+        <h3>Equal Opportunity</h3>
+    </div>
+    <div id="tabs-6">
+        <h3>Disclaimer</h3>
+    </div>
+</div>
+</body>
+</html>
